@@ -148,16 +148,61 @@
                   <h2>Casa Bela</h2>
                   <h3>HTML</h3>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est pariatur soluta doloremque tempore nisi placeat, eveniet voluptate recusandae. Eius, sapiente?</p>
-                  <button>Saiba Mais</button>
+                  <button class="btn">Saiba Mais</button>
                 </div>
               </div>
             </div>
-  
           </section>
-  
+          <section class="sessao-contato">
+              <div class="contato-wrapper">
+                  <div class="contato-left"></div>
+                      <div class="contato-right">
+                        <h1>Contato</h1>
+                        <form>
+                            <div class="input-group">
+                                <input type="text" class="field" id="nome">
+                                <label for="nome" class="field-label">Nome</label >
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="field" id="email">
+                                <label for="email" class="field-label">E-mail</label >
+                            </div>
+                            <div class="input-group">
+                                <textarea class="field" id="mensagem"></textarea>
+                                <label  for="mensagem"  class="field-label">Mensagem</label>
+                            </div>
+                            <button class="btn btn-sub" type="submit" >Enviar</button>
+                        </form>
+                 </div>
+              </div>
+          </section>
+          <section class="sessao-orcamento">
+              <div class="orcamento-wrapper">
+                  <h1>Faça Um Orçamento</h1>
+                  <form>
+                      <label for="qtde">Quantidade De Paginas</label>
+                      <input type="number" min="1" name="qtde" id="qtde">
+                      <label for="js">Preciso de um script JS</label>
+                      <input type="checkbox" name="js" id="js">
+                      <label>Layout</label>
+                      <div class="grupo-layout">
+                          <div>
+                              <input type="radio" name="layout" id="layout-sim">
+                              <label for="layout-sim">Preciso de um Layout</label>
+                          </div>
+                          <div>
+                            <input type="radio" name="layout" id="layout-nao">
+                            <label for="layout-nao">Já tenho um Layout</label>
+                        </div>
+                      </div>
+                      <label for="prazo">Prazo</label>
+                      <input type="range" name="prazo" id="prazo">
+                      <button class="btn btn-orc" type="submit">Enviar</button>
+                    </form>
+              </div>
+          </section>
       </div>
      </body>
   
      <script src="script.js"></script>
   </html>
-  
